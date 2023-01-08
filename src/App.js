@@ -46,7 +46,7 @@ function App() {
           <Route exact path="/about"
            element={<About mode={mode}/>}>
           </Route>
-          <Route exact path="/"
+          <Route exact path="/TextUtils-React.js/"
         element={<Textform showAlert={showAlert} heading="TextUtils- Word Counter | Character Counter" mode={mode} />}>
           </Route>
         </Routes>
